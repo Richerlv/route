@@ -31,7 +31,7 @@ public class HelloController {
     @RequestMapping(value = "/hello", method = RequestMethod.GET)
     public String hello() {
         log.info("SOMEONE SAY HELLO!");
-        return "hello!";
+        return "welcome route!";
     }
 
     @ResponseBody
